@@ -44,6 +44,8 @@
 		C800EF5729946CB800606FBC /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800EF5529946CB800606FBC /* CollisionManager.swift */; };
 		C800EF5A29946FA200606FBC /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C800EF5929946FA200606FBC /* StartScene.sks */; };
 		C800EF5C29946FD500606FBC /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800EF5B29946FD500606FBC /* StartScene.swift */; };
+		C800EF5F2994789E00606FBC /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C800EF5E2994789E00606FBC /* EndScene.sks */; };
+		C800EF61299478A900606FBC /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800EF60299478A900606FBC /* EndScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		C800EF5929946FA200606FBC /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
 		C800EF5B29946FD500606FBC /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		C800EF5D299475AF00606FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C800EF5E2994789E00606FBC /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
+		C800EF60299478A900606FBC /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +224,8 @@
 				C800EF0A29946B3E00606FBC /* GameScene.swift */,
 				C800EF5929946FA200606FBC /* StartScene.sks */,
 				C800EF5B29946FD500606FBC /* StartScene.swift */,
+				C800EF5E2994789E00606FBC /* EndScene.sks */,
+				C800EF60299478A900606FBC /* EndScene.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				C800EF3529946CA100606FBC /* plane.png in Resources */,
 				C800EF3F29946CA100606FBC /* engine.mp3 in Resources */,
 				C800EF3129946CA100606FBC /* plane3.png in Resources */,
+				C800EF5F2994789E00606FBC /* EndScene.sks in Resources */,
 				C800EF5A29946FA200606FBC /* StartScene.sks in Resources */,
 				C800EF4029946CA100606FBC /* thunder.mp3 in Resources */,
 				C800EF1229946B4000606FBC /* Assets.xcassets in Resources */,
@@ -324,6 +331,7 @@
 				C800EF5129946CAA00606FBC /* Ocean.swift in Sources */,
 				C800EF4E29946CAA00606FBC /* Layer.swift in Sources */,
 				C800EF5029946CAA00606FBC /* Cloud.swift in Sources */,
+				C800EF61299478A900606FBC /* EndScene.swift in Sources */,
 				C800EF5C29946FD500606FBC /* StartScene.swift in Sources */,
 				C800EF0529946B3E00606FBC /* AppDelegate.swift in Sources */,
 				C800EF5229946CAA00606FBC /* Player.swift in Sources */,
