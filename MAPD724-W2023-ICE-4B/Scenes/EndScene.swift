@@ -22,7 +22,8 @@ class EndScene: SKScene
         ocean2?.position.y = -627
         addChild(ocean2!)
         
-  
+        let soundGameOver = SKAction.playSoundFileNamed("gameover.wav", waitForCompletion: false)
+        run(soundGameOver)
     }
     
     

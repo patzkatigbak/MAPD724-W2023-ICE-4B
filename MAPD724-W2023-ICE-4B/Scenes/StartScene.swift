@@ -7,6 +7,7 @@ class StartScene: SKScene
     // instance variables
     var ocean1: Ocean?
     var ocean2: Ocean?
+
     
     override func sceneDidLoad()
     {
@@ -22,6 +23,15 @@ class StartScene: SKScene
         ocean2?.position.y = -627
         addChild(ocean2!)
         
+//        
+//        let engineSound = SKAudioNode(fileNamed: "gameover.wav")
+//        engineSound.autoplayLooped = true
+//        engineSound.run(SKAction.changeVolume(by: 0.5, duration: 0))
+//        addChild(engineSound)
+        
+
+
+
   
     }
     

@@ -44,7 +44,7 @@ class CollisionManager
 //                    print("colliding with ISLAND")
                     ScoreManager.Score += 100
                     gameViewController?.updateScoreLabel()
-                    scene.run(SKAction.playSoundFileNamed("yay", waitForCompletion: false))
+                    scene.run(SKAction.playSoundFileNamed("powerup", waitForCompletion: false))
                     
                     if(ScoreManager.Score % 1000 == 0 ) //for every 1000 score, +1 to lives
                     {
@@ -58,7 +58,7 @@ class CollisionManager
 //                    print("colliding with CLOUD")
                     ScoreManager.Lives -= 1
                     gameViewController?.updateLivesLabel()
-                    scene.run(SKAction.playSoundFileNamed("thunder", waitForCompletion: false))
+                    scene.run(SKAction.playSoundFileNamed("lightning", waitForCompletion: false))
                     
                     if(ScoreManager.Lives < 1)
                     {

@@ -46,6 +46,10 @@
 		C800EF5C29946FD500606FBC /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800EF5B29946FD500606FBC /* StartScene.swift */; };
 		C800EF5F2994789E00606FBC /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C800EF5E2994789E00606FBC /* EndScene.sks */; };
 		C800EF61299478A900606FBC /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800EF60299478A900606FBC /* EndScene.swift */; };
+		C85DB0B82998695200296B8D /* lightning.wav in Resources */ = {isa = PBXBuildFile; fileRef = C85DB0B62998695200296B8D /* lightning.wav */; };
+		C85DB0B92998695200296B8D /* powerup.wav in Resources */ = {isa = PBXBuildFile; fileRef = C85DB0B72998695200296B8D /* powerup.wav */; };
+		C85DB0BB299869E400296B8D /* engine1.mpeg in Resources */ = {isa = PBXBuildFile; fileRef = C85DB0BA299869E400296B8D /* engine1.mpeg */; };
+		C85DB0BD29986A9800296B8D /* gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = C85DB0BC29986A9800296B8D /* gameover.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +94,10 @@
 		C800EF5D299475AF00606FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C800EF5E2994789E00606FBC /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
 		C800EF60299478A900606FBC /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
+		C85DB0B62998695200296B8D /* lightning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lightning.wav; path = ../../../../../../Desktop/lightning.wav; sourceTree = "<group>"; };
+		C85DB0B72998695200296B8D /* powerup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = powerup.wav; path = ../../../../../../Desktop/powerup.wav; sourceTree = "<group>"; };
+		C85DB0BA299869E400296B8D /* engine1.mpeg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; name = engine1.mpeg; path = ../../../../../../Desktop/engine1.mpeg; sourceTree = "<group>"; };
+		C85DB0BC29986A9800296B8D /* gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gameover.wav; path = ../../../../../../Desktop/gameover.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +177,10 @@
 		C800EF2829946CA100606FBC /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				C85DB0BA299869E400296B8D /* engine1.mpeg */,
+				C85DB0BC29986A9800296B8D /* gameover.wav */,
+				C85DB0B62998695200296B8D /* lightning.wav */,
+				C85DB0B72998695200296B8D /* powerup.wav */,
 				C800EF2929946CA100606FBC /* thunder.ogg */,
 				C800EF2A29946CA100606FBC /* yay.ogg */,
 				C800EF2B29946CA100606FBC /* engine.ogg */,
@@ -293,17 +305,21 @@
 				C800EF3C29946CA100606FBC /* thunder.ogg in Resources */,
 				C800EF3929946CA100606FBC /* nextButton.png in Resources */,
 				C800EF0729946B3E00606FBC /* GameScene.sks in Resources */,
+				C85DB0B82998695200296B8D /* lightning.wav in Resources */,
 				C800EF4229946CA100606FBC /* Dock51.ttf in Resources */,
 				C800EF3529946CA100606FBC /* plane.png in Resources */,
 				C800EF3F29946CA100606FBC /* engine.mp3 in Resources */,
 				C800EF3129946CA100606FBC /* plane3.png in Resources */,
 				C800EF5F2994789E00606FBC /* EndScene.sks in Resources */,
 				C800EF5A29946FA200606FBC /* StartScene.sks in Resources */,
+				C85DB0BD29986A9800296B8D /* gameover.wav in Resources */,
 				C800EF4029946CA100606FBC /* thunder.mp3 in Resources */,
 				C800EF1229946B4000606FBC /* Assets.xcassets in Resources */,
 				C800EF3A29946CA100606FBC /* ocean.png in Resources */,
 				C800EF3D29946CA100606FBC /* yay.ogg in Resources */,
 				C800EF4129946CA100606FBC /* yay.mp3 in Resources */,
+				C85DB0B92998695200296B8D /* powerup.wav in Resources */,
+				C85DB0BB299869E400296B8D /* engine1.mpeg in Resources */,
 				C800EF3429946CA100606FBC /* backButton.png in Resources */,
 				C800EF3729946CA100606FBC /* ocean.gif in Resources */,
 				C800EF1529946B4000606FBC /* LaunchScreen.storyboard in Resources */,
